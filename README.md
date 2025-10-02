@@ -1,6 +1,5 @@
 # No-Limit-Lifting-Simulator + Lifting-Simulator Calculator
 Python-based calculator for No Limit Lifting Simulator and Lifting Simulator with strength gain calculations, time estimates, and built-in autoclicker.
-# No Limit Lifting Simulator + Lifting Simulator Calculator
 
 # INSTALLATION
 
