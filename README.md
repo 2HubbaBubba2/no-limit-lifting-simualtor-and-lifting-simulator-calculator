@@ -111,4 +111,4 @@ For questions, bug reports, or feature requests, contact me on Discord or join t
 ## License
 This project is licensed under the **MIT License**.  
 You are free to use, copy, and distribute this software with attribution.  
-See the [LICENSE](./LICENSE) file for full details.  
+See the LISCENSE file for full details.  
