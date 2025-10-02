@@ -2,7 +2,7 @@
 Python-based calculator for No Limit Lifting Simulator with strength gain calculations, time estimates, and built-in autoclicker.
 # NLLS CALCULATOR (No Limit Lifting Simulator Calculator)
 
-                         # INSTALLATION
+# INSTALLATION
 
 STEP 1: Install Python (if not already installed)
 - Download Python from: https://www.python.org/downloads/
@@ -18,7 +18,7 @@ STEP 3: Run the Calculator
 - Double-click "NLLS-RUN.bat" (recommended)
 - OR double-click "NLLS-CALC.py" if Python is set up
 
-                          # HOW TO USE
+# HOW TO USE
 
 1. Select your current STAGE from the dropdown
 2. Choose your current WEIGHT you're using
@@ -38,7 +38,7 @@ FEATURES:
 - Ranks information
 - Built-in autoclicker (Press F1 to toggle)
 
-                        # TROUBLESHOOTING
+# TROUBLESHOOTING
 
 PROBLEM: "Python is not recognized"
 SOLUTION: Reinstall Python and check "Add Python to PATH"
@@ -55,7 +55,7 @@ SOLUTION: Use format like "1.5" not "1.50" - enter just the number part
 PROBLEM: Autoclicker not working
 SOLUTION: Run as administrator or check if antivirus is blocking it
 
-                          # IMPORTANT
+# IMPORTANT
 
 - Keep all files in the same folder
 - Works best on Windows (might work on Mac/Linux with Python installed)
@@ -64,7 +64,7 @@ SOLUTION: Run as administrator or check if antivirus is blocking it
 - Use at your own risk and follow your game's terms of service
 - Autoclicker feature: Press F1 to toggle on/off (10ms speed)
 
-                       # CONTACT & SUPPORT
+# CONTACT & SUPPORT
 
 Discord: hubba_4bubba
 Server: https://discord.gg/PdhpUBBgFb
