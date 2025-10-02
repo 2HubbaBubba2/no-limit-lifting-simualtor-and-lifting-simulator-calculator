@@ -1,78 +1,66 @@
-# No-Limit-Lifting-Simulator + Lifting-Simulator Calculator
-Python-based calculator for No Limit Lifting Simulator and Lifting Simulator with strength gain calculations, time estimates, and built-in autoclicker.
-
-# INSTALLATION
-
-STEP 1: Install Python (if not already installed)
-- Download Python from: https://www.python.org/downloads/
-- During installation, CHECK "Add Python to PATH"
-- Choose "Install Now"
-
-STEP 2: Install Required Packages
-- Double-click "NLLS+LS-INSTALL-DEPENDENCIES.bat"
-- If you see errors, manually run: pip install keyboard pyautogui
-- OR if you prefer, just double-click "NLLS+LS-RUN.bat" and it will guide you
-
-STEP 3: Run the Calculator
-- Double-click "NLLS+LS-RUN.bat" (recommended)
-- OR double-click "NLLS+LS_CALC.py" if Python is set up
-
-# HOW TO USE
-
-1. Select your GAME MODE (Lifting Simulator or No Limit Lifting Simulator)
-   - Lifting Simulator: Standard calculations (1x multiplier)
-   - No Limit Lifting Simulator: Enhanced calculations (10x multiplier)
-2. Select your current STAGE from the dropdown
-3. Choose your current WEIGHT you're using
-4. Enter your REBORNS count
-5. Set TARGET STRENGTH you want to reach
-6. Enter CURRENT STRENGTH and CURRENT COINS for accurate calculations
-7. Enable any MULTIPLIERS you have (2x Coins, Fast Lifter, 2x Strength)
-8. View calculations automatically update - no need to click anything!
-
-FEATURES:
-- Supports both Lifting Simulator and No Limit Lifting Simulator
-- Game mode selection with automatic calculations
-- Gain per second calculations
-- Time to reach targets
-- Next purchase recommendations
-- Stage completion times
-- Multi-stage planning
-- Boss and minion data
-- Ranks information
-- Built-in autoclicker (Press F1 to toggle)
-
-# TROUBLESHOOTING
-
-PROBLEM: "Python is not recognized"
-SOLUTION: Reinstall Python and check "Add Python to PATH"
-
-PROBLEM: Import or package errors
-SOLUTION: Run NLLS+LS-INSTALL-DEPENDENCIES.bat or manually: pip install keyboard pyautogui
-
-PROBLEM: Calculator won't start
-SOLUTION: Right-click NLLS+LS-RUN.bat → "Run as administrator"
-
-PROBLEM: Numbers won't enter properly
-SOLUTION: Use format like "1.5" not "1.50" - enter just the number part
-
-PROBLEM: Autoclicker not working
-SOLUTION: Run as administrator or check if antivirus is blocking it
-
-# IMPORTANT
-
-- Keep all files in the same folder
-- Works best on Windows (might work on Mac/Linux with Python installed)
-- This is for educational/personal use
-- Calculator values are estimates - always double-check in-game
-- Use at your own risk and follow your game's terms of service
-- Works with both Lifting Simulator and No Limit Lifting Simulator
-- Autoclicker feature: Press F1 to toggle on/off (10ms speed)
-
-# CONTACT & SUPPORT
-
-Discord: hubba_4bubba
-Server: https://discord.gg/PdhpUBBgFb
-
-For questions, bugs, or custom calculator requests, message me!
-I make random tools and macros for gaming communities - always happy to help!
+NLLS + LS Calculator
+No Limit Lifting Simulator + Lifting Simulator Calculator
+A comprehensive calculator tool for both No Limit Lifting Simulator and Lifting Simulator on Roblox. Calculate strength gains, time to targets, and track your progression.
+Event Buffs (Lifting Simulator Only)
+⦁	Christmas Body Alters - Various Christmas-themed strength buffs
+⦁	Halloween Body Alters - Halloween-themed strength buffs
+⦁	Christmas Transformations - Transformation buffs with percentage bonuses
+⦁	Halloween Transformations - Halloween transformation buffs
+⦁	Christmas Leaderboards - Leaderboard rewards (TOP 1000, 100, 10, 1)
+⦁	Halloween Leaderboards - Halloween leaderboard rewards
+Built-in Autoclicker
+⦁	10ms speed autoclicker - Press F1 to toggle
+⦁	Works while other keys are pressed - Won't interfere with typing
+⦁	Prevents disconnection from inactivity
+Advanced Features
+⦁	Save/Load configurations for different scenarios
+⦁	Multi-stage time calculations (e.g., Stage 5 to Stage 20)
+⦁	Progress tracking with completion percentages
+⦁	Real-time finish time predictions
+⦁	Optimal selling point calculations
+Quick Start
+Easy Installation
+1.	Run dependencies.bat - This will automatically install required Python packages
+2.	Run run.bat - This will start the calculator
+3.	Follow the setup guide in the calculator interface
+Manual Installation
+If the batch files don't work:
+1.	Make sure Python 3.7+ is installed
+2.	Open Command Prompt as Administrator
+3.	Run: pip install keyboard pyautogui
+4.	Double-click NLLS+LS-CALC.py to start
+How to Use
+Basic Setup
+1.	Select your current stage (0-30) from the dropdown
+2.	Choose your current weight from the available options
+3.	Enter your reborn count
+4.	Set your target strength (amount + suffix like K, M, B, T, etc.)
+5.	Enter your current strength and coins for accurate calculations
+Configuration
+Save/Load Feature
+⦁	Save Config - Save your current settings for reuse
+⦁	Load Config - Load previously saved configurations
+⦁	Reset - Reset all values to defaults
+Configurations are saved to NLLS+LS_CONFIG.json in the same directory.
+Important Notes
+⦁	Times are estimates and may vary due to lag or manual clicking speed
+⦁	Event buffs only apply when Lifting Simulator mode is selected
+⦁	Autoclicker is optional - only use if needed to prevent disconnection
+⦁	The calculator is continuously updated with latest data
+Troubleshooting
+Calculator Issues
+⦁	If calculations seem wrong, verify your stage and weight selections match the actual values
+⦁	Ensure all multiplier checkboxes match your in-game gamepasses/boosts
+⦁	Try resetting values and re-entering your information
+Module Installation Issues
+⦁	Run dependencies.bat as Administrator
+⦁	If that fails, run Command Prompt as Administrator and use: pip install keyboard pyautogui
+⦁	For tkinter issues, you may need to reinstall Python with tkinter support
+Performance Issues
+⦁	Close other resource-intensive applications while using the calculator
+⦁	If the interface feels slow, try restarting the calculator
+Support
+Created by: HubbaBubba
+⦁	Discord: hubba_4bubba
+⦁	Discord Server: https://discord.gg/PdhpUBBgFb
+For questions, bug reports, or feature requests, contact me on Discord or join the server.
